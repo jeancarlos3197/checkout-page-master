@@ -1,0 +1,220 @@
+.checkout {
+  margin-top: 50px;
+
+  &__form {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-column-gap: 12%;
+    width: fit-content;
+
+    &__left {
+      &__contact {
+        h2 {
+          @include texto($ff-global, 600, 1.8rem);
+          color: #333333;
+        }
+      }
+
+      &__shipping {
+        margin-top: 58px;
+        h2 {
+          @include texto($ff-global, 600, 1.8rem);
+          color: #333333;
+        }
+
+        &__check {
+          margin-top: 23px;
+          display: block;
+          @include texto($ff-global, 600, 1.2rem);
+          color: #4f4f4f;
+          // padding-left: 15px;
+          // text-indent: -15px;
+
+          input {
+            width: 21px;
+            height: 21px;
+            padding: 0;
+            margin: 0 11px 0 0;
+            vertical-align: bottom;
+            position: relative;
+            top: 4px;
+            *overflow: hidden;
+          }
+        }
+      }
+    }
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      background-color: #f2f2f2;
+      padding: 30px;
+      height: fit-content;
+      border-radius: 12px;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      &__description {
+        margin-top: 90px;
+
+        hr {
+          border: 1px solid #bdbdbd;
+        }
+
+        &__price {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+
+          h3, p{
+            @include texto($ff-global, 600, 1.8rem);
+          color: #333333;
+          }
+        }
+      }
+    }
+
+    &__button {
+      margin-top: 23px;
+      display: flex;
+      justify-content: end;
+
+      button {
+        @include texto($ff-global, 600, 1.6rem);
+        padding: 17px 45px;
+        color: #fff;
+        background-color: #f2994a;
+        border-radius: 12px;
+        border: 1px solid #f2994a;
+
+        &:hover {
+          color: #f2994a;
+          background-color: #fff;
+          border: 1px #f2994a solid;
+        }
+      }
+    }
+  }
+}
+
+.input__design {
+  margin-top: 20px;
+
+  label {
+    @include texto($ff-global, 600, 1.2rem);
+    color: #4f4f4f;
+  }
+
+  .icon__and__input {
+    margin-top: 7px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 18px 0 18px 14px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+
+    span {
+      color: #828282;
+    }
+
+    input,
+    select {
+      @include texto($ff-global, 600, 1.6rem);
+      color: #333333;
+      border: none;
+      outline: 0;
+      width: 90%;
+
+      &::placeholder {
+        @include texto($ff-global, 600, 1.6rem);
+        color: #828282;
+      }
+    }
+  }
+}
+
+.country__and__postal {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  .country,
+  .postal {
+    width: 50%;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 135px 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+
+  img {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 13px;
+  }
+
+  &_description {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      @include texto($ff-global, 600, 1.6rem);
+      color: #4e5150;
+    }
+    p {
+      margin-top: 8px;
+
+      span:nth-child(1) {
+        @include texto($ff-global, 600, 1.6rem);
+        color: orange;
+        margin-right: 10px;
+      }
+      span:nth-child(2) {
+        @include texto($ff-global, 600, 1.2rem);
+        color: #4e5150;
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  &_count {
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 60%;
+    display: flex;
+    padding: 15px 11px;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      @include texto($ff-global, 600, 1.8rem);
+      margin: 0;
+      padding: 0 5px 0 5px;
+      border: 1px solid #e0e0e0;
+      color: #828282;
+      background-color: #e0e0e0;
+      border-radius: 4px;
+
+      &:hover {
+        color: #e0e0e0;
+        background-color: #828282;
+        border: 1px solid #828282;
+      }
+    }
+    p {
+      @include texto($ff-global, 600, 1.6rem);
+      color: #333333;
+    }
+  }
+}

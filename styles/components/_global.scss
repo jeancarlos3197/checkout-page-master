@@ -1,0 +1,18 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: $fs-global;
+}
+
+.wrapper{
+  width: $w-max;
+  padding: 64px 0 24px 0;
+  margin: auto;
+}
+
+button{
+  cursor: pointer;
+}

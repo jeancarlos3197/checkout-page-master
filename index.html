@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/devchallenges.png" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"><h1>Checkout</h1></header>
+      <main class="checkout">
+        <form action="" class="checkout__form">
+          <div class="checkout__form__left">
+            <div class="checkout__form__left__contact">
+              <h2>Contact infomation</h2>
+              <div class="checkout__form__left__contact__contact input__design">
+                <label for="correo">E-mail</label>
+                <div class="icon__and__input">
+                  <span class="material-icons"> email </span>
+                  <input
+                    type="email"
+                    id="correo"
+                    placeholder="Enter your email..."
+                  />
+                </div>
+              </div>
+              <div class="checkout__form__left__contact__contact input__design">
+                <label for="telefono">Phone</label>
+                <div class="icon__and__input">
+                  <span class="material-icons"> call </span>
+                  <input
+                    type="tel"
+                    id="telefono"
+                    placeholder="Enter your phone..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="checkout__form__left__shipping">
+              <h2>Shipping address</h2>
+              <div
+                class="checkout__form__left__shipping__content input__design"
+              >
+                <label for="nombre">Full name</label>
+                <div class="icon__and__input">
+                  <span class="material-icons"> account_circle </span>
+                  <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Enter your full name.."
+                  />
+                </div>
+              </div>
+              <div
+                class="checkout__form__left__shipping__content input__design"
+              >
+                <label for="direccion">Address</label>
+                <div class="icon__and__input">
+                  <span class="material-icons"> home </span>
+                  <input
+                    type="text"
+                    id="direccion"
+                    placeholder="Your address.."
+                  />
+                </div>
+              </div>
+              <div
+                class="checkout__form__left__shipping__content input__design"
+              >
+                <label for="ciudad">City</label>
+                <div class="icon__and__input">
+                  <span class="material-icons"> location_city </span>
+                  <input
+                    type="text"
+                    id="ciudad"
+                    name="ciudad"
+                    placeholder="Your city.."
+                  />
+                </div>
+              </div>
+              <div
+                class="checkout__form__left__shipping__content input__design country__and__postal"
+              >
+                <div class="country">
+                  <label for="pais">Country</label>
+                  <div class="icon__and__input">
+                    <span class="material-icons"> public </span>
+                    <select name="pais" id="pais">
+                      <option value="none">Your country..</option>
+                      <option value="value2">Value 2</option>
+                      <option value="value3">Value 3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="postal">
+                  <label for="postal">Postal</label>
+                  <div class="icon__and__input">
+                    <span class="material-icons"> markunread_mailbox </span>
+                    <input
+                      type="text"
+                      id="postal"
+                      placeholder="Your postal code.."
+                    />
+                  </div>
+                </div>
+              </div>
+              <label class="checkout__form__left__shipping__check"
+                ><input type="checkbox" id="cbox1" value="first_checkbox" />
+                Save this information for next time</label
+              ><br />
+            </div>
+          </div>
+          <div class="checkout__form__right">
+            <div class="checkout__form__right__content">
+              <div class="container">
+                <img src="./img/photo1.png" alt="" />
+                <div class="container_description">
+                  <h4>Vintage Backbag</h4>
+                  <p>
+                    <span>$54.99</span>
+                    <span>$94.99</span>
+                  </p>
+                </div>
+                <div class="container_count">
+                  <button>-</button>
+                  <p>1</p>
+                  <button>+</button>
+                </div>
+              </div>
+              <div class="container">
+                <img src="./img/photo2.png" alt="" />
+                <div class="container_description">
+                  <h4>Levi Shoes</h4>
+                  <p><span>$74.99</span><span>$124.99</span></p>
+                </div>
+                <div class="container_count">
+                  <button>-</button>
+                  <p>1</p>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+            <div class="checkout__form__right__description">
+              <hr />
+              <div class="checkout__form__right__description__price">
+                <h3>Shipping</h3>
+                <p>$19</p>
+              </div>
+              <hr />
+              <div class="checkout__form__right__description__price">
+                <h3>Total</h3>
+                <p>$148.98</p>
+              </div>
+            </div>
+          </div>
+          <div class="checkout__form__button">
+            <button>Continue</button>
+          </div>
+        </form>
+      </main>
+      <footer class="footer">
+        <p>
+          created by
+          <a
+            href="https://devchallenges.io/portfolio/jeancarlos3197"
+            target="_blank"
+            >Jean Carlos Garcia P.</a
+          >
+          - devChallenges.io
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

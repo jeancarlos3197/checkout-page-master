@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+$fs-global:62.5%;
+$ff-global: 'Montserrat', sans-serif;
+$w-max: 960px;
+
+@mixin texto($font,$weight,$size){
+  font-family: $font;
+  font-weight: $weight;
+  font-size: $size;
+}
