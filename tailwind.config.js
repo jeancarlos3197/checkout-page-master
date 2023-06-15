@@ -12,6 +12,9 @@ module.exports = {
         "gray-3": "#828282",
         "gray-4": "#BDBDBD",
         "gray-5": "#E0E0E0",
+        "gray-final": "#F2F2F2",
+        "gray-line": "#BDBDBD",
+        "orange-product": "#F2994A",
       },
       fontFamily: {
         montserrat: ['"Montserrat"', "sans-serif"],
