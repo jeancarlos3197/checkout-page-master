@@ -44,7 +44,7 @@ export class Checkout extends Component {
           </main>
         </div>
         <footer class="mt-auto font-montserrat text-gray-4 text-sm flex justify-center mb-6">
-          created by <a href="">username</a> - devChallenges.io
+          created by <a href="/">username</a> - devChallenges.io
         </footer>
       </>
     );
