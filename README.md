@@ -38,7 +38,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/jeancarlos3197/checkout-page-master/main/src/utils/screencapture-64911165bb4a665e3446abe1-cute-genie-66d9dc-netlify-app-2023-06-19-22_00_54.png)
 
 - Where can I see your demo?
   - Here: [demo](https://64911165bb4a665e3446abe1--cute-genie-66d9dc.netlify.app/)
