@@ -6,7 +6,9 @@ export default function ShippingTotal() {
       <div>
         <hr className="border-gray-line mb-2.5" />
         <div className="flex justify-between">
-          <p className="font-montserrat text-gray-1 text-lg">Shipping</p>
+          <p className="font-montserrat text-gray-1 xl:text-lg lg:text-sm text-sm">
+            Shipping
+          </p>
           <p className="font-montserrat text-gray-1 text-sm">$19</p>
         </div>
       </div>

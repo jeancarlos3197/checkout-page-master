@@ -6,7 +6,7 @@ import Phone from "../utils/phone.svg";
 export default function ContactInformation({ className }) {
   return (
     <div className={className}>
-      <p className="text-lg font-montserrat font-[600] text-gray-1">
+      <p className="xl:text-lg lg:text-sm text-sm font-montserrat font-[600] text-gray-1">
         Contact information
       </p>
       <Input

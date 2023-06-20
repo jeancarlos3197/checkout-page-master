@@ -4,7 +4,7 @@ import MinusSvg from "./../utils/minus.svg";
 
 export default function Quantity() {
   return (
-    <div className="border border-gray-3 flex px-3 py-3.5 rounded-xl w-[134px]">
+    <div className="border border-gray-3 flex px-3 py-3.5 rounded-xl xl:w-[134px] lg:w-[122px] w-[122px]">
       <button className="w-5 h-5 bg-gray-5 rounded m-auto">
         <img className="w-3 m-auto" src={MinusSvg} alt="Minus" />
       </button>
